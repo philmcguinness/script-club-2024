@@ -1,3 +1,10 @@
 # Ignore Terraform configuration files
 .terraform/
 .terraform.lock.hcl
+
+# Local Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Log files
+*.log
